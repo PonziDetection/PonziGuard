@@ -12,7 +12,7 @@ We also conducted a preliminary experiment to verify the performance of PonziGua
 
 ### <u>Tool</u>
 
-The code provided in `./tools` serves as a simple pipeline of Ponziguard.
+The code provided in `./tools` serves as a simple pipeline of PonziGuard.
 
 The complete code will be open-sourced after the conference is hold.
 
@@ -40,21 +40,21 @@ vim /etc/profile
 source /etc/profile
 ```
 
-Prepare your pretrained Doc2vec model in `./tools/ponziguard/CRBG/model/yourModel`
+Prepare your pretrained Doc2vec model in `./tools/PonziGuard/CRBG/model/yourModel`
 
 ### <u>Run</u>
 
 Build the source of the instrumented Geth
 
 ```shell
-cd ./tools/ponziguard/geth_detect
+cd ./tools/PonziGuard/geth_detect
 make geth
 ```
 
 Run the instrumented Geth 
 
 ```shell
-./tools/ponziguard/geth_detect/build/bin/geth --identity "TestNode2" --rpc -rpcaddr "0.0.0.0"  --rpcport "8545" --rpccorsdomain "*" --port "30303" --nodiscover  --rpcapi "db,eth,net,web3,miner,net,personal,net,txpool,admin"  --networkid 1900   --datadir "../ChainData" --nat "any"   --unlock 0 --password "./ChainData/pwd.txt"  --mine --allow-insecure-unlock --rpc.allow-unprotected-txs
+./tools/PonziGuard/geth_detect/build/bin/geth --identity "TestNode2" --rpc -rpcaddr "0.0.0.0"  --rpcport "8545" --rpccorsdomain "*" --port "30303" --nodiscover  --rpcapi "db,eth,net,web3,miner,net,personal,net,txpool,admin"  --networkid 1900   --datadir "../ChainData" --nat "any"   --unlock 0 --password "./ChainData/pwd.txt"  --mine --allow-insecure-unlock --rpc.allow-unprotected-txs
 ```
 
 Deploy under-tested smart contracts in the private chain manually or by following the guidance of Contractfuzzer.
@@ -76,10 +76,10 @@ tested_contract
             addr_map.csv
 ```
 
-Invoke the smart contracts or replay the historical transactions in `./tools/ponziguard/ChainData` to generate CRBG of smart contracts.
+Invoke the smart contracts or replay the historical transactions in `./tools/PonziGuard/ChainData` to generate CRBG of smart contracts.
 
 ```shell
-cd ./tools/ponziguard/ContractFuzzer && ./run.sh --contracts_dir ./tested_contract
+cd ./tools/PonziGuard/ContractFuzzer && ./run.sh --contracts_dir ./tested_contract
 ```
 
 ```shell
@@ -87,13 +87,13 @@ cd ./tools/ponziguard/ContractFuzzer && ./run.sh --contracts_dir ./tested_contra
 debug.traceBlockBynumber("BlockNumber")
 ```
 
-Taint Engine in `./tools/ponziguard/taint_engine` will marks and tracks the propagation paths of sensitive data in contracts and construct Contract Runtime Behavior Graph in `./tools/ponziguard/CRBG`.
+Taint Engine in `./tools/PonziGuard/taint_engine` will marks and tracks the propagation paths of sensitive data in contracts and construct Contract Runtime Behavior Graph in `./tools/PonziGuard/CRBG`.
 
-The output of raw graphs is in `./tools/ponziguard/CRBG/CRBG_output_onehot`, to complete the CRBG  construction, run:
+The output of raw graphs is in `./tools/PonziGuard/CRBG/CRBG_output_onehot`, to complete the CRBG  construction, run:
 
 ```shell
-cd ./tools/ponziguard/CRBG
+cd ./tools/PonziGuard/CRBG
 python -u CRBG.py
 ```
 
-The CRBG output is in `./tools/ponziguard/CRBG/CRBG_output`.
+The CRBG output is in `./tools/PonziGuard/CRBG/CRBG_output`.
