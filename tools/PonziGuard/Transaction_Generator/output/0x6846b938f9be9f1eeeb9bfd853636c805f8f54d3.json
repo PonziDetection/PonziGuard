@@ -1,0 +1,131 @@
+{
+    "0x6846b938f9be9f1eeeb9bfd853636c805f8f54d3": [
+        [
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 12
+                }
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 39
+                }
+            },
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 7,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 13,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 25,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 40,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

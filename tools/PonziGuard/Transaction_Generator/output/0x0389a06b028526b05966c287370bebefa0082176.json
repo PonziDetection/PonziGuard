@@ -1,0 +1,87 @@
+{
+    "0x0389a06b028526b05966c287370bebefa0082176": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "TestContract()",
+                "name": "TestContract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "execute"
+                ],
+                "reads": [
+                    "deployer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "TestContract()",
+                "name": "TestContract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "execute"
+                ],
+                "reads": [
+                    "deployer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "PayOut(uint256)",
+                "name": "PayOut",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "ContibutorNumber": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "contributors(uint256)",
+                    "totalProfit()",
+                    "totalSUM()"
+                ],
+                "writes": [
+                    "contributors(uint256)",
+                    "totalProfit()",
+                    "totalSUM()"
+                ],
+                "randomParameterValues": {
+                    "ContibutorNumber": 38
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

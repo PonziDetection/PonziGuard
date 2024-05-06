@@ -1,0 +1,84 @@
+{
+    "0x7d3ae940eb73dc9131758ad2e326c7d863b0916a": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "owner()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "owner()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

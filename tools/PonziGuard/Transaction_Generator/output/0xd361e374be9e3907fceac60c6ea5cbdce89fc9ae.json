@@ -1,0 +1,117 @@
+{
+    "0xd361e374be9e3907fceac60c6ea5cbdce89fc9ae": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "CurrentTime()",
+                    "PreviousTime()",
+                    "contestant(uint256)",
+                    "owner()"
+                ],
+                "writes": [
+                    "CurrentTime()",
+                    "Current_balance()",
+                    "PreviousTime()",
+                    "contestant(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "CurrentTime()",
+                    "PreviousTime()",
+                    "contestant(uint256)",
+                    "owner()"
+                ],
+                "writes": [
+                    "CurrentTime()",
+                    "Current_balance()",
+                    "PreviousTime()",
+                    "contestant(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "PT()",
+                "name": "PT",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "PreviousTime()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "CT()",
+                "name": "CT",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "CurrentTime()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "CT()",
+                "name": "CT",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "CurrentTime()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "PT()",
+                "name": "PT",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "PreviousTime()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

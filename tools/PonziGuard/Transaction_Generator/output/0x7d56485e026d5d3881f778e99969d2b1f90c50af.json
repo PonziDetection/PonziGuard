@@ -1,0 +1,136 @@
+{
+    "0x7d56485e026d5d3881f778e99969d2b1f90c50af": [
+        [
+            {
+                "full_name": "collectFee()",
+                "name": "collectFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "bribedCitizen()",
+                    "collectedFee()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFee()",
+                "name": "collectFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "bribedCitizen()",
+                    "collectedFee()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "repairTheCastle()",
+                "name": "repairTheCastle",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "SIX_HOURS()",
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "citizensAddresses(uint256)",
+                    "citizensAmounts(uint256)",
+                    "collectedFee()",
+                    "jester()",
+                    "lastCitizenPaid()",
+                    "lastReparation()",
+                    "piggyBank()",
+                    "round()",
+                    "totalCitizens()"
+                ],
+                "writes": [
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "citizensAddresses(uint256)",
+                    "citizensAmounts(uint256)",
+                    "collectedFee()",
+                    "jester()",
+                    "lastCitizenPaid()",
+                    "lastReparation()",
+                    "piggyBank()",
+                    "round()",
+                    "totalCitizens()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "repairTheCastle()",
+                "name": "repairTheCastle",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "SIX_HOURS()",
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "citizensAddresses(uint256)",
+                    "citizensAmounts(uint256)",
+                    "collectedFee()",
+                    "jester()",
+                    "lastCitizenPaid()",
+                    "lastReparation()",
+                    "piggyBank()",
+                    "round()",
+                    "totalCitizens()"
+                ],
+                "writes": [
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "citizensAddresses(uint256)",
+                    "citizensAmounts(uint256)",
+                    "collectedFee()",
+                    "jester()",
+                    "lastCitizenPaid()",
+                    "lastReparation()",
+                    "piggyBank()",
+                    "round()",
+                    "totalCitizens()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "repairTheCastle"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "repairTheCastle"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

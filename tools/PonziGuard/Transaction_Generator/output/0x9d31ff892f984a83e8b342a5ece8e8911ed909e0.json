@@ -1,0 +1,71 @@
+{
+    "0x9d31ff892f984a83e8b342a5ece8e8911ed909e0": [
+        [
+            {
+                "full_name": "show_me_the_money()",
+                "name": "show_me_the_money",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "minimum_cash_proof_amount()",
+                    "the_stupid_guy()"
+                ],
+                "writes": [],
+                "value": 9,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Update_Cash_Proof_amount(uint256)",
+                "name": "Update_Cash_Proof_amount",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_cash_limit": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "the_stupid_guy()"
+                ],
+                "writes": [
+                    "minimum_cash_proof_amount()"
+                ],
+                "randomParameterValues": {
+                    "new_cash_limit": 44
+                }
+            },
+            {
+                "full_name": "show_me_the_money()",
+                "name": "show_me_the_money",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "minimum_cash_proof_amount()",
+                    "the_stupid_guy()"
+                ],
+                "writes": [],
+                "value": 15,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [],
+                "writes": [],
+                "value": 20,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "0x7894ccf2997c8c89a80b86faa012d09d53ed48b9": [
+        [
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x30b8481D85A9C0d16e15e3E752DD168826BdEC07"
+                }
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "owner()",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "owner()",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

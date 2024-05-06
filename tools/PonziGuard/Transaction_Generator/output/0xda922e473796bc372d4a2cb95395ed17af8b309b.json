@@ -1,0 +1,118 @@
+{
+    "0xda922e473796bc372d4a2cb95395ed17af8b309b": [
+        [
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 0,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "transfer(address,uint256)",
+                "name": "transfer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_to": "address",
+                    "_value": "uint256"
+                },
+                "internalCalls": [
+                    "isOpen",
+                    "doSwarm",
+                    "iterateThroughSwarm"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "humans(uint256)",
+                    "taxRate()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)"
+                ],
+                "randomParameterValues": {
+                    "_to": "0xb97170c7d1b381A6940EEbC78b4d2Ecae9b628bf",
+                    "_value": 50
+                }
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 45
+                }
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 1
+                }
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 12
+                }
+            }
+        ]
+    ]
+}

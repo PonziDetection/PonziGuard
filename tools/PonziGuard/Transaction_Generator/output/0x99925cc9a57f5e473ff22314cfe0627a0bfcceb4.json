@@ -1,0 +1,192 @@
+{
+    "0x99925cc9a57f5e473ff22314cfe0627a0bfcceb4": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 9,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "get_balance()",
+                "name": "get_balance",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "set_minimum_payment(uint256)",
+                "name": "set_minimum_payment",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_limit": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "thebank()"
+                ],
+                "writes": [
+                    "minimum_payment()"
+                ],
+                "randomParameterValues": {
+                    "new_limit": 48
+                }
+            },
+            {
+                "full_name": "set_minimum_payment(uint256)",
+                "name": "set_minimum_payment",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_limit": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "thebank()"
+                ],
+                "writes": [
+                    "minimum_payment()"
+                ],
+                "randomParameterValues": {
+                    "new_limit": 14
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 16,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "close_bank()",
+                "name": "close_bank",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "any_customer_payments_yet()",
+                    "contract_alive_until_this_block()",
+                    "thebank()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "deposit()",
+                "name": "deposit",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "deposit_fee()",
+                    "minimum_payment()",
+                    "thebank()"
+                ],
+                "writes": [
+                    "any_customer_payments_yet()",
+                    "balances(address)",
+                    "deposit_fee()",
+                    "term_deposit_end_block(address)"
+                ],
+                "value": 29,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "set_deposit_fee(uint256)",
+                "name": "set_deposit_fee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_fee": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "thebank()"
+                ],
+                "writes": [
+                    "deposit_fee()"
+                ],
+                "randomParameterValues": {
+                    "new_fee": 3
+                }
+            },
+            {
+                "full_name": "deposit()",
+                "name": "deposit",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "deposit_fee()",
+                    "minimum_payment()",
+                    "thebank()"
+                ],
+                "writes": [
+                    "any_customer_payments_yet()",
+                    "balances(address)",
+                    "deposit_fee()",
+                    "term_deposit_end_block(address)"
+                ],
+                "value": 39,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "withdraw(uint256)",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "withdraw_amount": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "term_deposit_end_block(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "randomParameterValues": {
+                    "withdraw_amount": 6
+                }
+            }
+        ]
+    ]
+}

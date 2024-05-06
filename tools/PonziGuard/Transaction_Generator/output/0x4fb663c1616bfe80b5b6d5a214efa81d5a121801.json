@@ -1,0 +1,132 @@
+{
+    "0x4fb663c1616bfe80b5b6d5a214efa81d5a121801": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "addInvestor"
+                ],
+                "reads": [],
+                "writes": [],
+                "value": 0,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "status()",
+                "name": "status",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "PAYOUT_INTERVAL()",
+                    "m_beneficiaries(uint256)",
+                    "m_investors(uint256)",
+                    "m_latestPaidTime()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "performPayouts()",
+                "name": "performPayouts",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "BENEFICIARIES_INTEREST()",
+                    "INTEREST_DENOMINATOR()",
+                    "INVESTORS_INTEREST()",
+                    "PAYOUT_INTERVAL()",
+                    "m_beneficiaries(uint256)",
+                    "m_investors(uint256)",
+                    "m_latestPaidTime()"
+                ],
+                "writes": [
+                    "m_latestPaidTime()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "resetBeneficiaryList()",
+                "name": "resetBeneficiaryList",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "adminOnly"
+                ],
+                "reads": [
+                    "m_beneficiaries(uint256)"
+                ],
+                "writes": [
+                    "m_beneficiaries(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "resetBeneficiaryList()",
+                "name": "resetBeneficiaryList",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "adminOnly"
+                ],
+                "reads": [
+                    "m_beneficiaries(uint256)"
+                ],
+                "writes": [
+                    "m_beneficiaries(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "status()",
+                "name": "status",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "PAYOUT_INTERVAL()",
+                    "m_beneficiaries(uint256)",
+                    "m_investors(uint256)",
+                    "m_latestPaidTime()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeAdmin(address)",
+                "name": "changeAdmin",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newAdmin": "address"
+                },
+                "internalCalls": [
+                    "adminOnly"
+                ],
+                "reads": [],
+                "writes": [
+                    "m_admin()"
+                ],
+                "randomParameterValues": {
+                    "newAdmin": "0x62fE98cbe9fda5361683d02ba35C47eaC8DdE4cD"
+                }
+            }
+        ]
+    ]
+}

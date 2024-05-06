@@ -1,0 +1,112 @@
+{
+    "0xf45717552f12ef7cb65e95476f217ea008167ae3": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "lendGovernmentMoney"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "lendGovernmentMoney"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalDebt()",
+                "name": "totalDebt",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "creditorAmounts(uint256)",
+                    "lastCreditorPayedOut()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalPayedOut()",
+                "name": "totalPayedOut",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "creditorAmounts(uint256)",
+                    "lastCreditorPayedOut()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "getCreditorAddresses()",
+                "name": "getCreditorAddresses",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "creditorAddresses(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "getCreditorAddresses()",
+                "name": "getCreditorAddresses",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "creditorAddresses(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "getCreditorAmounts()",
+                "name": "getCreditorAmounts",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "creditorAmounts(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "lendGovernmentMoney"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

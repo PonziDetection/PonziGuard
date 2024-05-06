@@ -1,0 +1,225 @@
+{
+    "0xcac337492149bdb66b088bf5914bedfbf78ccc18": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "WatchWinningPot()",
+                "name": "WatchWinningPot",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "WatchFees()",
+                "name": "WatchFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "fees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "WatchBalanceInEther()",
+                "name": "WatchBalanceInEther",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Balance()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "CollectAllFees()",
+                "name": "CollectAllFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "admin()",
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "writes": [
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "WatchLastPayout()",
+                "name": "WatchLastPayout",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Last_Payout()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "ChangeOwnership(address)",
+                "name": "ChangeOwnership",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "admin()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x8581b20161485f8100D309828085cFD9A4B377eF"
+                }
+            },
+            {
+                "full_name": "GetAndReduceFeesByFraction(uint256)",
+                "name": "GetAndReduceFeesByFraction",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "p": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "admin()",
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "writes": [
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "randomParameterValues": {
+                    "p": 29
+                }
+            },
+            {
+                "full_name": "ChangeOwnership(address)",
+                "name": "ChangeOwnership",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "admin()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x8f0EDDC853C2DAA27Bbb7D2deABde7843237EEa8"
+                }
+            },
+            {
+                "full_name": "GetAndReduceFeesByFraction(uint256)",
+                "name": "GetAndReduceFeesByFraction",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "p": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "admin()",
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "writes": [
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "randomParameterValues": {
+                    "p": 8
+                }
+            },
+            {
+                "full_name": "WatchFees()",
+                "name": "WatchFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "fees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "GetAndReduceFeesByFraction(uint256)",
+                "name": "GetAndReduceFeesByFraction",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "p": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "admin()",
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "writes": [
+                    "feeFrac()",
+                    "fees()"
+                ],
+                "randomParameterValues": {
+                    "p": 27
+                }
+            }
+        ]
+    ]
+}

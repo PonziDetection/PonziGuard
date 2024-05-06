@@ -1,0 +1,51 @@
+{
+    "0x80d9c4f6209044de069c545f68644419b520a02f": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x331CD7016db4d37C3E1DB86Fa47138F731ce8943"
+                }
+            }
+        ]
+    ]
+}

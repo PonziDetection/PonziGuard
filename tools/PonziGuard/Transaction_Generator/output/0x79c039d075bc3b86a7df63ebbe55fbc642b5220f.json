@@ -1,0 +1,260 @@
+{
+    "0x79c039d075bc3b86a7df63ebbe55fbc642b5220f": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeFeePercentage(uint256)",
+                "name": "changeFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_fee": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "feePercent()"
+                ],
+                "randomParameterValues": {
+                    "_fee": 33
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "feesSeperateFromBalanceApproximately()",
+                "name": "feesSeperateFromBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFeesInEther(uint256)",
+                "name": "collectFeesInEther",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_amt": "uint256"
+                },
+                "internalCalls": [
+                    "collectAllFees",
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_amt": 10
+                }
+            },
+            {
+                "full_name": "currentMultiplier()",
+                "name": "currentMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "pyramidMultiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_mult": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "pyramidMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "_mult": 1
+                }
+            },
+            {
+                "full_name": "currentMultiplier()",
+                "name": "currentMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "pyramidMultiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "participantDetails(uint256)",
+                "name": "participantDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "orderInPyramid": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "orderInPyramid": 19
+                }
+            },
+            {
+                "full_name": "totalParticipants()",
+                "name": "totalParticipants",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeFeePercentage(uint256)",
+                "name": "changeFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_fee": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "feePercent()"
+                ],
+                "randomParameterValues": {
+                    "_fee": 6
+                }
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 38
+                }
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 35
+                }
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 34
+                }
+            },
+            {
+                "full_name": "feesSeperateFromBalanceApproximately()",
+                "name": "feesSeperateFromBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

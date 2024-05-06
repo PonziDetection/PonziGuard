@@ -1,0 +1,82 @@
+{
+    "0x5158cf97c3e001b402ccb0f9063736ee8d6dad5a": [
+        [
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0xB6DA369005BC88cD277Ec5FcF851fA56697b436d"
+                }
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "owner()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "owner()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "0xf77ac34cd0ed42f2b5d8cfcf4fa0f4bb1b80b9d8": [
+        [
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 4,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 13,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "transfer(address,uint256)",
+                "name": "transfer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_to": "address",
+                    "_value": "uint256"
+                },
+                "internalCalls": [
+                    "isOpen",
+                    "swarmRedistribution"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "taxRate()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)"
+                ],
+                "randomParameterValues": {
+                    "_to": "0x8643b4DA6079c097E6C6241925587088e2969ff6",
+                    "_value": 33
+                }
+            },
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 24,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "transfer(address,uint256)",
+                "name": "transfer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_to": "address",
+                    "_value": "uint256"
+                },
+                "internalCalls": [
+                    "isOpen",
+                    "swarmRedistribution"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "taxRate()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)"
+                ],
+                "randomParameterValues": {
+                    "_to": "0x3C23516BfB39706c9c02E3665A471B9B4C876ffC",
+                    "_value": 33
+                }
+            },
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 35,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

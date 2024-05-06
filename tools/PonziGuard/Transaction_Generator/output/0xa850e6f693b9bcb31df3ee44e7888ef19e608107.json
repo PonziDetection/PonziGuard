@@ -1,0 +1,50 @@
+{
+    "0xa850e6f693b9bcb31df3ee44e7888ef19e608107": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "VALUE()",
+                    "payoutIndex()",
+                    "payoutTotal()",
+                    "payouts(uint256)"
+                ],
+                "writes": [
+                    "payoutIndex()",
+                    "payoutTotal()",
+                    "payouts(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "VALUE()",
+                    "payoutIndex()",
+                    "payoutTotal()",
+                    "payouts(uint256)"
+                ],
+                "writes": [
+                    "payoutIndex()",
+                    "payoutTotal()",
+                    "payouts(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

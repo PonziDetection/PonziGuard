@@ -1,0 +1,42 @@
+{
+    "0x6adf9e666e3e85876b1ba25edb31799faad8417b": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [],
+                "writes": [],
+                "value": 3,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [],
+                "writes": [],
+                "value": 10,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [],
+                "writes": [],
+                "value": 30,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

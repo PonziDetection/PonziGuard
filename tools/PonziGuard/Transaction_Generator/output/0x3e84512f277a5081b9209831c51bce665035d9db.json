@@ -1,0 +1,108 @@
+{
+    "0x3e84512f277a5081b9209831c51bce665035d9db": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "contribute_toTheGame"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "restart()",
+                "name": "restart",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "new_mainPlayer(address)",
+                "name": "new_mainPlayer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_mainPlayer": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [
+                    "mainPlayer()"
+                ],
+                "randomParameterValues": {
+                    "new_mainPlayer": "0x94971F6A21cb1ff951750330D594b340Cf0D4208"
+                }
+            },
+            {
+                "full_name": "new_mainPlayer(address)",
+                "name": "new_mainPlayer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_mainPlayer": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [
+                    "mainPlayer()"
+                ],
+                "randomParameterValues": {
+                    "new_mainPlayer": "0x40fb4D36Ac01094e8207b25225215AdCBf4479E5"
+                }
+            },
+            {
+                "full_name": "new_mainPlayer(address)",
+                "name": "new_mainPlayer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_mainPlayer": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [
+                    "mainPlayer()"
+                ],
+                "randomParameterValues": {
+                    "new_mainPlayer": "0x52503b339f8BBFB389CADbC4ad520d6b922713f6"
+                }
+            },
+            {
+                "full_name": "restart()",
+                "name": "restart",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

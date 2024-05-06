@@ -1,0 +1,109 @@
+{
+    "0x75aa81161e07483f6ca199fef46c13eb13d190be": [
+        [
+            {
+                "full_name": "getPeriod()",
+                "name": "getPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "period()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setNewPeriod(uint256)",
+                "name": "setNewPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_newPeriod": "uint256"
+                },
+                "internalCalls": [
+                    "onlyOwner"
+                ],
+                "reads": [],
+                "writes": [
+                    "newPeriod()"
+                ],
+                "randomParameterValues": {
+                    "_newPeriod": 6
+                }
+            },
+            {
+                "full_name": "getNewPeriod()",
+                "name": "getNewPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "newPeriod()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "getNewPeriod()",
+                "name": "getNewPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "newPeriod()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "getNewPeriod()",
+                "name": "getNewPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "newPeriod()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setNewPeriod(uint256)",
+                "name": "setNewPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_newPeriod": "uint256"
+                },
+                "internalCalls": [
+                    "onlyOwner"
+                ],
+                "reads": [],
+                "writes": [
+                    "newPeriod()"
+                ],
+                "randomParameterValues": {
+                    "_newPeriod": 36
+                }
+            },
+            {
+                "full_name": "getNewPeriod()",
+                "name": "getNewPeriod",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "newPeriod()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

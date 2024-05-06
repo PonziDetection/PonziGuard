@@ -1,0 +1,60 @@
+{
+    "0xebfed9e4ae035b0f7ae982d1a7abfe0aa26a0341": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIdx()",
+                    "investor()",
+                    "niceGuys(uint256)",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "writes": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIdx()",
+                    "investor()",
+                    "niceGuys(uint256)",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIdx()",
+                    "investor()",
+                    "niceGuys(uint256)",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "writes": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIdx()",
+                    "investor()",
+                    "niceGuys(uint256)",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

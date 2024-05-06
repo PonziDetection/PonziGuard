@@ -1,0 +1,90 @@
+{
+    "0x3ae8b3ae07cb09f4ca2b6250eec03d016017755e": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

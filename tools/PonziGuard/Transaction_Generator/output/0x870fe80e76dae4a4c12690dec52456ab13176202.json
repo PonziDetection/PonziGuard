@@ -1,0 +1,187 @@
+{
+    "0x870fe80e76dae4a4c12690dec52456ab13176202": [
+        [
+            {
+                "full_name": "updateSettings(uint256,uint256,uint256,uint256,uint256,bool)",
+                "name": "updateSettings",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newMultiplier": "uint256",
+                    "newMaxMultiplier": "uint256",
+                    "newFee": "uint256",
+                    "newMinDeposit": "uint256",
+                    "newMaxDeposit": "uint256",
+                    "collect": "bool"
+                },
+                "internalCalls": [
+                    "collectFees"
+                ],
+                "reads": [
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()",
+                    "owner()"
+                ],
+                "writes": [
+                    "baseFee()",
+                    "baseMultiplier()",
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()"
+                ],
+                "randomParameterValues": {
+                    "newMultiplier": 1,
+                    "newMaxMultiplier": 25,
+                    "newFee": 37,
+                    "newMinDeposit": 16,
+                    "newMaxDeposit": 37,
+                    "collect": "false"
+                }
+            },
+            {
+                "full_name": "updateSettings(uint256,uint256,uint256,uint256,uint256,bool)",
+                "name": "updateSettings",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newMultiplier": "uint256",
+                    "newMaxMultiplier": "uint256",
+                    "newFee": "uint256",
+                    "newMinDeposit": "uint256",
+                    "newMaxDeposit": "uint256",
+                    "collect": "bool"
+                },
+                "internalCalls": [
+                    "collectFees"
+                ],
+                "reads": [
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()",
+                    "owner()"
+                ],
+                "writes": [
+                    "baseFee()",
+                    "baseMultiplier()",
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()"
+                ],
+                "randomParameterValues": {
+                    "newMultiplier": 0,
+                    "newMaxMultiplier": 20,
+                    "newFee": 13,
+                    "newMinDeposit": 18,
+                    "newMaxDeposit": 18,
+                    "collect": "true"
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "play"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "DynamicPyramid()",
+                "name": "DynamicPyramid",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "playerStats(address)"
+                ],
+                "writes": [
+                    "playerStats(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "playerByAddress(address)",
+                "name": "playerByAddress",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "addr": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "playerStats(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "addr": "0x5f7d2a8F5a45F443f49D843f71c1C4ABf8E851aF"
+                }
+            },
+            {
+                "full_name": "DynamicPyramid()",
+                "name": "DynamicPyramid",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "playerStats(address)"
+                ],
+                "writes": [
+                    "playerStats(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "DynamicPyramid()",
+                "name": "DynamicPyramid",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "playerStats(address)"
+                ],
+                "writes": [
+                    "playerStats(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "DynamicPyramid()",
+                "name": "DynamicPyramid",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "playerStats(address)"
+                ],
+                "writes": [
+                    "playerStats(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "DynamicPyramid()",
+                "name": "DynamicPyramid",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "playerStats(address)"
+                ],
+                "writes": [
+                    "playerStats(address)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

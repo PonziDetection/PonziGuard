@@ -1,0 +1,193 @@
+{
+    "0xea06c9cb0d69058468387f283e9a3f61c53e3c21": [
+        [
+            {
+                "full_name": "invest()",
+                "name": "invest",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "entryCosts",
+                    "checkInvestmentRequired"
+                ],
+                "reads": [
+                    "feePercentage()",
+                    "id()",
+                    "investors(uint16)",
+                    "owner()",
+                    "payOutPercentage()",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "id()",
+                    "investors(uint16)",
+                    "payoutIdx()"
+                ],
+                "value": 4,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "checkInvestmentRequired(uint16,bool)",
+                "name": "checkInvestmentRequired",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_investorId": "uint16",
+                    "_clickYes": "bool"
+                },
+                "internalCalls": [
+                    "balance(address)",
+                    "awaitingPayOut"
+                ],
+                "reads": [
+                    "feePercentage()",
+                    "investors(uint16)",
+                    "payoutIdx()"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "_investorId": 35,
+                    "_clickYes": "false"
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "buySmartContract",
+                    "invest"
+                ],
+                "reads": [
+                    "priceOfSmartContract()"
+                ],
+                "writes": [],
+                "value": 20,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "putSmartContractOnSale(bool)",
+                "name": "putSmartContractOnSale",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_sell": "bool"
+                },
+                "internalCalls": [
+                    "onlyOwner"
+                ],
+                "reads": [
+                    "priceOfSmartContract()"
+                ],
+                "writes": [
+                    "smartContactForSale()"
+                ],
+                "randomParameterValues": {
+                    "_sell": "true"
+                }
+            },
+            {
+                "full_name": "checkInvestmentRequired(uint16,bool)",
+                "name": "checkInvestmentRequired",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_investorId": "uint16",
+                    "_clickYes": "bool"
+                },
+                "internalCalls": [
+                    "balance(address)",
+                    "awaitingPayOut"
+                ],
+                "reads": [
+                    "feePercentage()",
+                    "investors(uint16)",
+                    "payoutIdx()"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "_investorId": 9,
+                    "_clickYes": "false"
+                }
+            },
+            {
+                "full_name": "invest()",
+                "name": "invest",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "entryCosts",
+                    "checkInvestmentRequired"
+                ],
+                "reads": [
+                    "feePercentage()",
+                    "id()",
+                    "investors(uint16)",
+                    "owner()",
+                    "payOutPercentage()",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "id()",
+                    "investors(uint16)",
+                    "payoutIdx()"
+                ],
+                "value": 26,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "invest()",
+                "name": "invest",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "entryCosts",
+                    "checkInvestmentRequired"
+                ],
+                "reads": [
+                    "feePercentage()",
+                    "id()",
+                    "investors(uint16)",
+                    "owner()",
+                    "payOutPercentage()",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "id()",
+                    "investors(uint16)",
+                    "payoutIdx()"
+                ],
+                "value": 32,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buySmartContract()",
+                "name": "buySmartContract",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isForSale"
+                ],
+                "reads": [
+                    "owner()",
+                    "priceOfSmartContract()"
+                ],
+                "writes": [
+                    "owner()",
+                    "smartContactForSale()"
+                ],
+                "value": 41,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

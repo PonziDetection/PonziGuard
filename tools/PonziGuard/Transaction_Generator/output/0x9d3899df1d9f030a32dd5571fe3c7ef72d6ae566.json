@@ -1,0 +1,33 @@
+{
+    "0x9d3899df1d9f030a32dd5571fe3c7ef72d6ae566": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIndex()",
+                    "investorIndex()",
+                    "investors(uint256)",
+                    "niceGuys(uint256)",
+                    "payoutIndex()"
+                ],
+                "writes": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIndex()",
+                    "investorIndex()",
+                    "investors(uint256)",
+                    "niceGuys(uint256)",
+                    "payoutIndex()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

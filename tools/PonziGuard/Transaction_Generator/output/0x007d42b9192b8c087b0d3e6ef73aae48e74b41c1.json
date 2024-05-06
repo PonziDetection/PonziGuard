@@ -1,0 +1,176 @@
+{
+    "0x007d42b9192b8c087b0d3e6ef73aae48e74b41c1": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Emergency()",
+                "name": "Emergency",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "owner()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewManualInvestor(address,uint256)",
+                "name": "NewManualInvestor",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_investor": "address",
+                    "new_amount": "uint256"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "investors(uint256)",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {
+                    "new_investor": "0x13e1866D312F0eba824148a01E58E85ECDcF6B73",
+                    "new_amount": 22
+                }
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewManualInvestor(address,uint256)",
+                "name": "NewManualInvestor",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_investor": "address",
+                    "new_amount": "uint256"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "investors(uint256)",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {
+                    "new_investor": "0xa8E336c7a92113162D4DE47146351C162588De7C",
+                    "new_amount": 9
+                }
+            }
+        ]
+    ]
+}

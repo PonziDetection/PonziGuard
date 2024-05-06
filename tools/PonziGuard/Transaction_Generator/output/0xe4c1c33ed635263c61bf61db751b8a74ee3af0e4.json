@@ -1,0 +1,45 @@
+{
+    "0xe4c1c33ed635263c61bf61db751b8a74ee3af0e4": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Balance()",
+                    "Fees()",
+                    "Total_Deposited()",
+                    "Total_Paid_Out()",
+                    "depositors(uint256)",
+                    "owner()"
+                ],
+                "writes": [
+                    "Balance()",
+                    "Fees()",
+                    "Message()",
+                    "Total_Deposited()",
+                    "Total_Paid_Out()",
+                    "Total_Savers()",
+                    "depositors(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

@@ -1,0 +1,241 @@
+{
+    "0x294308484f47ff5a833a284ac6949eb02728fbe4": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "play"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "settings()",
+                "name": "settings",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "maxDeposit()",
+                    "minDeposit()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "settings()",
+                "name": "settings",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "maxDeposit()",
+                    "minDeposit()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "updateSettings(uint256,uint256,uint256,uint256,uint256,bool)",
+                "name": "updateSettings",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newMultiplier": "uint256",
+                    "newMaxMultiplier": "uint256",
+                    "newFee": "uint256",
+                    "newMinDeposit": "uint256",
+                    "newMaxDeposit": "uint256",
+                    "collect": "bool"
+                },
+                "internalCalls": [
+                    "collectFees"
+                ],
+                "reads": [
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()",
+                    "owner()"
+                ],
+                "writes": [
+                    "baseFee()",
+                    "baseMultiplier()",
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()"
+                ],
+                "randomParameterValues": {
+                    "newMultiplier": 25,
+                    "newMaxMultiplier": 46,
+                    "newFee": 46,
+                    "newMinDeposit": 17,
+                    "newMaxDeposit": 34,
+                    "collect": "false"
+                }
+            },
+            {
+                "full_name": "play()",
+                "name": "play",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "waitingForPayout",
+                    "entryPayoutDue",
+                    "skipInLine"
+                ],
+                "reads": [
+                    "balance()",
+                    "baseFee()",
+                    "baseMultiplier()",
+                    "currentPosition()",
+                    "feeBalance()",
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()",
+                    "playerStats(address)",
+                    "players(uint256)",
+                    "theLine(uint256)",
+                    "totalDeposits()",
+                    "totalHearts()",
+                    "totalPaid()",
+                    "totalShinyThings()",
+                    "totalSkips()",
+                    "totalSprockets()",
+                    "totalSquirrels()",
+                    "totalStars()"
+                ],
+                "writes": [
+                    "balance()",
+                    "currentPosition()",
+                    "feeBalance()",
+                    "playerStats(address)",
+                    "players(uint256)",
+                    "theLine(uint256)",
+                    "totalDeposits()",
+                    "totalHearts()",
+                    "totalPaid()",
+                    "totalShinyThings()",
+                    "totalSkips()",
+                    "totalSprockets()",
+                    "totalSquirrels()",
+                    "totalStars()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "balance()",
+                    "feeBalance()",
+                    "owner()"
+                ],
+                "writes": [
+                    "feeBalance()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "play()",
+                "name": "play",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "waitingForPayout",
+                    "entryPayoutDue",
+                    "skipInLine"
+                ],
+                "reads": [
+                    "balance()",
+                    "baseFee()",
+                    "baseMultiplier()",
+                    "currentPosition()",
+                    "feeBalance()",
+                    "maxDeposit()",
+                    "maxMultiplier()",
+                    "minDeposit()",
+                    "playerStats(address)",
+                    "players(uint256)",
+                    "theLine(uint256)",
+                    "totalDeposits()",
+                    "totalHearts()",
+                    "totalPaid()",
+                    "totalShinyThings()",
+                    "totalSkips()",
+                    "totalSprockets()",
+                    "totalSquirrels()",
+                    "totalStars()"
+                ],
+                "writes": [
+                    "balance()",
+                    "currentPosition()",
+                    "feeBalance()",
+                    "playerStats(address)",
+                    "players(uint256)",
+                    "theLine(uint256)",
+                    "totalDeposits()",
+                    "totalHearts()",
+                    "totalPaid()",
+                    "totalShinyThings()",
+                    "totalSkips()",
+                    "totalSprockets()",
+                    "totalSquirrels()",
+                    "totalStars()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "lineOfPlayers(uint256)",
+                "name": "lineOfPlayers",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "index": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "players(uint256)",
+                    "theLine(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "index": 13
+                }
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "balance()",
+                    "feeBalance()",
+                    "owner()"
+                ],
+                "writes": [
+                    "feeBalance()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

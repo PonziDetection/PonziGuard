@@ -1,0 +1,64 @@
+{
+    "0x9da7902394fb19ddd340d47398d35e3405bf79ec": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "alpha()",
+                    "balance()",
+                    "crazyearners(uint256)",
+                    "feeamount()",
+                    "kappa()",
+                    "totaldeposited()",
+                    "totalearners()",
+                    "totalmoneyearned()"
+                ],
+                "writes": [
+                    "alpha()",
+                    "balance()",
+                    "crazyearners(uint256)",
+                    "deposits_until_jackpot()",
+                    "feeamount()",
+                    "totaldeposited()",
+                    "totalearners()",
+                    "totalmoneyearned()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "alpha()",
+                    "balance()",
+                    "crazyearners(uint256)",
+                    "feeamount()",
+                    "kappa()",
+                    "totaldeposited()",
+                    "totalearners()",
+                    "totalmoneyearned()"
+                ],
+                "writes": [
+                    "alpha()",
+                    "balance()",
+                    "crazyearners(uint256)",
+                    "deposits_until_jackpot()",
+                    "feeamount()",
+                    "totaldeposited()",
+                    "totalearners()",
+                    "totalmoneyearned()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

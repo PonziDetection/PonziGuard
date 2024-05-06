@@ -1,0 +1,185 @@
+{
+    "0x41f2d5040726c5328f8366f17041ec012ac8f338": [
+        [
+            {
+                "full_name": "NewOwner(address)",
+                "name": "NewOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_owner": "address"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "Message_To_Investors()",
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "new_owner": "0x83EC11a12f69F0877C132Da01c8a967909dc5BA6"
+                }
+            },
+            {
+                "full_name": "ManualDeposit()",
+                "name": "ManualDeposit",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewManualInvestor(address,uint256)",
+                "name": "NewManualInvestor",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_investor": "address",
+                    "new_amount": "uint256"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "investors(uint256)",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "investors(uint256)",
+                    "total_investors()"
+                ],
+                "randomParameterValues": {
+                    "new_investor": "0x0Be61d68f1302D0D59Ab7003ca0D6e10f0E94ef2",
+                    "new_amount": 20
+                }
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewMessage(string)",
+                "name": "NewMessage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_sms": "string"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "Message_To_Investors()"
+                ],
+                "randomParameterValues": {
+                    "new_sms": "7b9eba355e50ca4b02a85d21"
+                }
+            },
+            {
+                "full_name": "ManualDeposit()",
+                "name": "ManualDeposit",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "ManualDeposit()",
+                "name": "ManualDeposit",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewManualInvestor(address,uint256)",
+                "name": "NewManualInvestor",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_investor": "address",
+                    "new_amount": "uint256"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "investors(uint256)",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "investors(uint256)",
+                    "total_investors()"
+                ],
+                "randomParameterValues": {
+                    "new_investor": "0x28acD945046B833a29C3579414d168C4232FD34E",
+                    "new_amount": 11
+                }
+            }
+        ]
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "0x143e8bd26d95b230680c25300f93ef56f86eccac": [
+        [
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "owner()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [
+                    "balance()",
+                    "collectedFees()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "owner()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x74F29F238062D6f652f2c5A8419983DF85a73E23"
+                }
+            }
+        ]
+    ]
+}

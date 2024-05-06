@@ -1,0 +1,150 @@
+{
+    "0xb5aff01f3e820735fac9abb594dc9993cb9e5bd2": [
+        [
+            {
+                "full_name": "restart()",
+                "name": "restart",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "new_mainPlayer(address)",
+                "name": "new_mainPlayer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_mainPlayer": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "mainPlayer()"
+                ],
+                "writes": [
+                    "mainPlayer()"
+                ],
+                "randomParameterValues": {
+                    "new_mainPlayer": "0x38D271a4b21CD522f818b2d6BaeD1aE25B45DC5a"
+                }
+            },
+            {
+                "full_name": "collectFee()",
+                "name": "collectFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFee()",
+                    "mainPlayer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "contribute_toTheGame()",
+                "name": "contribute_toTheGame",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "SIX_HOURS()",
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "collectedFee()",
+                    "first_player()",
+                    "jackpot()",
+                    "lastPlayerPaid()",
+                    "playersAddresses(uint256)",
+                    "playersAmounts(uint256)",
+                    "regeneration()",
+                    "round()",
+                    "totalplayers()"
+                ],
+                "writes": [
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "collectedFee()",
+                    "first_player()",
+                    "jackpot()",
+                    "lastPlayerPaid()",
+                    "playersAddresses(uint256)",
+                    "playersAmounts(uint256)",
+                    "regeneration()",
+                    "round()",
+                    "totalplayers()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "contribute_toTheGame()",
+                "name": "contribute_toTheGame",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "SIX_HOURS()",
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "collectedFee()",
+                    "first_player()",
+                    "jackpot()",
+                    "lastPlayerPaid()",
+                    "playersAddresses(uint256)",
+                    "playersAmounts(uint256)",
+                    "regeneration()",
+                    "round()",
+                    "totalplayers()"
+                ],
+                "writes": [
+                    "amountAlreadyPaidBack()",
+                    "amountInvested()",
+                    "collectedFee()",
+                    "first_player()",
+                    "jackpot()",
+                    "lastPlayerPaid()",
+                    "playersAddresses(uint256)",
+                    "playersAmounts(uint256)",
+                    "regeneration()",
+                    "round()",
+                    "totalplayers()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "newfirst_player(address)",
+                "name": "newfirst_player",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newfirst_player": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "first_player()"
+                ],
+                "writes": [
+                    "first_player()"
+                ],
+                "randomParameterValues": {
+                    "newfirst_player": "0x02355C82373cdA86C0afAFF80f7eD142a570fC75"
+                }
+            }
+        ]
+    ]
+}

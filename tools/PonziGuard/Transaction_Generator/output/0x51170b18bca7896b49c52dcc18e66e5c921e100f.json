@@ -1,0 +1,52 @@
+{
+    "0x51170b18bca7896b49c52dcc18e66e5c921e100f": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Balance()",
+                    "Total_Deposited()",
+                    "Total_Paid_Out()",
+                    "Total_Players()",
+                    "depositors(uint256)"
+                ],
+                "writes": [
+                    "Balance()",
+                    "Total_Deposited()",
+                    "Total_Paid_Out()",
+                    "Total_Players()",
+                    "depositors(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Balance()",
+                    "Total_Deposited()",
+                    "Total_Paid_Out()",
+                    "Total_Players()",
+                    "depositors(uint256)"
+                ],
+                "writes": [
+                    "Balance()",
+                    "Total_Deposited()",
+                    "Total_Paid_Out()",
+                    "Total_Players()",
+                    "depositors(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

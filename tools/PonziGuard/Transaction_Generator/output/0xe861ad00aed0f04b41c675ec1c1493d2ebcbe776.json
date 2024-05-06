@@ -1,0 +1,48 @@
+{
+    "0xe861ad00aed0f04b41c675ec1c1493d2ebcbe776": [
+        [
+            {
+                "full_name": "funnel()",
+                "name": "funnel",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "beta()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIdx()",
+                    "investor()",
+                    "niceGuys(uint256)",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "writes": [
+                    "currentNiceGuy()",
+                    "currentNiceGuyIdx()",
+                    "investor()",
+                    "niceGuys(uint256)",
+                    "payoutIdx()",
+                    "persons(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

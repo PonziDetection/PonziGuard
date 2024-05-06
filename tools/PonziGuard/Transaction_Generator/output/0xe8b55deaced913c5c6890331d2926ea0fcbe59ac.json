@@ -1,0 +1,115 @@
+{
+    "0xe8b55deaced913c5c6890331d2926ea0fcbe59ac": [
+        [
+            {
+                "full_name": "openPool(uint8)",
+                "name": "openPool",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {
+                    "poolId": "uint8"
+                },
+                "internalCalls": [
+                    "createPoolIfNeeded",
+                    "getPlayerUsableTokensCount",
+                    "assert(bool)",
+                    "usePlayerToken"
+                ],
+                "reads": [
+                    "fiboIndex()",
+                    "fiboMax()",
+                    "owner()",
+                    "players(uint8)",
+                    "playersWallets(address)",
+                    "poolCount()",
+                    "poolJoinedCount()",
+                    "pools(uint8)"
+                ],
+                "writes": [
+                    "poolJoinedCount()",
+                    "pools(uint8)"
+                ],
+                "value": 1,
+                "randomParameterValues": {
+                    "poolId": 44
+                }
+            },
+            {
+                "full_name": "withdraw()",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "getPlayerUsableTokensCount",
+                    "assert(bool)",
+                    "usePlayerToken"
+                ],
+                "reads": [
+                    "players(uint8)",
+                    "playersBalance(address)",
+                    "playersWallets(address)"
+                ],
+                "writes": [
+                    "players(uint8)",
+                    "playersBalance(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "createPlayer()",
+                "name": "createPlayer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "assert(bool)"
+                ],
+                "reads": [
+                    "playerCount()",
+                    "players(uint8)",
+                    "playersWallets(address)"
+                ],
+                "writes": [
+                    "playerCount()",
+                    "players(uint8)",
+                    "playersWallets(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "openPool(uint8)",
+                "name": "openPool",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {
+                    "poolId": "uint8"
+                },
+                "internalCalls": [
+                    "createPoolIfNeeded",
+                    "getPlayerUsableTokensCount",
+                    "assert(bool)",
+                    "usePlayerToken"
+                ],
+                "reads": [
+                    "fiboIndex()",
+                    "fiboMax()",
+                    "owner()",
+                    "players(uint8)",
+                    "playersWallets(address)",
+                    "poolCount()",
+                    "poolJoinedCount()",
+                    "pools(uint8)"
+                ],
+                "writes": [
+                    "poolJoinedCount()",
+                    "pools(uint8)"
+                ],
+                "value": 10,
+                "randomParameterValues": {
+                    "poolId": 46
+                }
+            }
+        ]
+    ]
+}

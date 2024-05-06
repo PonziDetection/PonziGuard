@@ -1,0 +1,54 @@
+{
+    "0xe7f06e64e0d04c6cfedf7e9079d56d0fb7200a2e": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Balance()",
+                    "Multiplier()",
+                    "Total_Deposited()",
+                    "Total_Investors()",
+                    "Total_Paid_Out()",
+                    "depositors(uint256)"
+                ],
+                "writes": [
+                    "Balance()",
+                    "Total_Deposited()",
+                    "Total_Investors()",
+                    "Total_Paid_Out()",
+                    "depositors(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "Balance()",
+                    "Multiplier()",
+                    "Total_Deposited()",
+                    "Total_Investors()",
+                    "Total_Paid_Out()",
+                    "depositors(uint256)"
+                ],
+                "writes": [
+                    "Balance()",
+                    "Total_Deposited()",
+                    "Total_Investors()",
+                    "Total_Paid_Out()",
+                    "depositors(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

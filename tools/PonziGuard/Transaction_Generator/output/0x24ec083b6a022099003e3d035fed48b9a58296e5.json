@@ -1,0 +1,240 @@
+{
+    "0x24ec083b6a022099003e3d035fed48b9a58296e5": [
+        [
+            {
+                "full_name": "totalParticipants()",
+                "name": "totalParticipants",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 16
+                }
+            },
+            {
+                "full_name": "collectAllFees()",
+                "name": "collectAllFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "nextPayoutWhenPyramidBalanceTotalsApproximately()",
+                "name": "nextPayoutWhenPyramidBalanceTotalsApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeFeePercentage(uint256)",
+                "name": "changeFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_fee": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "feePercent()"
+                ],
+                "randomParameterValues": {
+                    "_fee": 44
+                }
+            },
+            {
+                "full_name": "currentFeePercentage()",
+                "name": "currentFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "feePercent()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_mult": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "pyramidMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "_mult": 49
+                }
+            },
+            {
+                "full_name": "feesSeperateFromBalanceApproximately()",
+                "name": "feesSeperateFromBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "feesSeperateFromBalanceApproximately()",
+                "name": "feesSeperateFromBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "participantDetails(uint256)",
+                "name": "participantDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "orderInPyramid": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "orderInPyramid": 46
+                }
+            },
+            {
+                "full_name": "nextPayoutWhenPyramidBalanceTotalsApproximately()",
+                "name": "nextPayoutWhenPyramidBalanceTotalsApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "currentMultiplier()",
+                "name": "currentMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "pyramidMultiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "numberOfParticipantsWaitingForPayout()",
+                "name": "numberOfParticipantsWaitingForPayout",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeFeePercentage(uint256)",
+                "name": "changeFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_fee": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "feePercent()"
+                ],
+                "randomParameterValues": {
+                    "_fee": 2
+                }
+            },
+            {
+                "full_name": "currentFeePercentage()",
+                "name": "currentFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "feePercent()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

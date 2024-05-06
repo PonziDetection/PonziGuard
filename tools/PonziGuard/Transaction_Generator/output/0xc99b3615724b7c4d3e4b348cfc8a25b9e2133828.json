@@ -1,0 +1,184 @@
+{
+    "0xc99b3615724b7c4d3e4b348cfc8a25b9e2133828": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 1,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "get_balance(address)",
+                "name": "get_balance",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "query_address": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "query_address": "0xbd3EDF4054bcdB6dCfB2d6E1b332129F095e7a99"
+                }
+            },
+            {
+                "full_name": "extend_life_of_contract(uint256)",
+                "name": "extend_life_of_contract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newblock": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "contract_alive_until_this_block()",
+                    "thebank()"
+                ],
+                "writes": [
+                    "contract_alive_until_this_block()",
+                    "term_deposit_end_block(address)"
+                ],
+                "randomParameterValues": {
+                    "newblock": 43
+                }
+            },
+            {
+                "full_name": "extend_life_of_contract(uint256)",
+                "name": "extend_life_of_contract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newblock": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "contract_alive_until_this_block()",
+                    "thebank()"
+                ],
+                "writes": [
+                    "contract_alive_until_this_block()",
+                    "term_deposit_end_block(address)"
+                ],
+                "randomParameterValues": {
+                    "newblock": 27
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 18,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 27,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 35,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "get_balance(address)",
+                "name": "get_balance",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "query_address": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "query_address": "0x96Df3FE5EaD9639E27CEf3Fc8F4Afd0360FE938d"
+                }
+            },
+            {
+                "full_name": "close_bank()",
+                "name": "close_bank",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "contract_alive_until_this_block()",
+                    "count_customer_deposits()",
+                    "thebank()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "value": 44,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

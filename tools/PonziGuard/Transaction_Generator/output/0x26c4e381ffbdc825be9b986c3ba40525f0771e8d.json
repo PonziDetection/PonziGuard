@@ -1,0 +1,66 @@
+{
+    "0x26c4e381ffbdc825be9b986c3ba40525f0771e8d": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "sha3()"
+                ],
+                "reads": [
+                    "Bankroll()",
+                    "FeeRate()",
+                    "Fees()",
+                    "MinDeposit()",
+                    "Total_Deposits()",
+                    "Total_Payouts()",
+                    "gamblerlist(uint256)",
+                    "owner()"
+                ],
+                "writes": [
+                    "Bankroll()",
+                    "Fees()",
+                    "Outcome()",
+                    "Total_Deposits()",
+                    "Total_Payouts()",
+                    "Total_Players()",
+                    "gamblerlist(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "sha3()"
+                ],
+                "reads": [
+                    "Bankroll()",
+                    "FeeRate()",
+                    "Fees()",
+                    "MinDeposit()",
+                    "Total_Deposits()",
+                    "Total_Payouts()",
+                    "gamblerlist(uint256)",
+                    "owner()"
+                ],
+                "writes": [
+                    "Bankroll()",
+                    "Fees()",
+                    "Outcome()",
+                    "Total_Deposits()",
+                    "Total_Payouts()",
+                    "Total_Players()",
+                    "gamblerlist(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "0x0f170120733474c6ec7daf6ae6aeeeb8b645e92c": [
+        [
+            {
+                "full_name": "transfer(address,uint256)",
+                "name": "transfer",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_to": "address",
+                    "_value": "uint256"
+                },
+                "internalCalls": [
+                    "swarmRedistribution"
+                ],
+                "reads": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "taxRate()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)"
+                ],
+                "randomParameterValues": {
+                    "_to": "0x1912C267966B87497B3dF6c8319fbcD7B59acE2b",
+                    "_value": 29
+                }
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 6
+                }
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 3,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 16,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

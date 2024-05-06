@@ -1,0 +1,74 @@
+{
+    "0x1ce7986760ade2bf0f322f5ef39ce0de3bd0c82b": [
+        [
+            {
+                "full_name": "withdraw()",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "checkZeroBalance"
+                ],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "withdraw()",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "checkZeroBalance"
+                ],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "withdraw()",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "checkZeroBalance"
+                ],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "withdraw()",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "checkZeroBalance"
+                ],
+                "reads": [
+                    "balances(address)"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

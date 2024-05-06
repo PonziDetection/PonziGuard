@@ -1,0 +1,31 @@
+{
+    "0xf7070fc72e2b92c6309785a39338d7c919a3cf4a": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "MAX_VALUE()",
+                    "MIN_VALUE()",
+                    "RET_DIV()",
+                    "RET_MUL()",
+                    "payoutIndex()",
+                    "payoutTotal()",
+                    "payouts(uint256)"
+                ],
+                "writes": [
+                    "payoutIndex()",
+                    "payoutTotal()",
+                    "payouts(uint256)"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

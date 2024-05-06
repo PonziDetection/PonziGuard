@@ -1,0 +1,350 @@
+{
+    "0xba6284ca128d72b25f1353fadd06aa145d9095af": [
+        [
+            {
+                "full_name": "carrotsCaught()",
+                "name": "carrotsCaught",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "carrots()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeFee(uint256)",
+                "name": "changeFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newFee": "uint256"
+                },
+                "internalCalls": [
+                    "onlypig"
+                ],
+                "reads": [],
+                "writes": [
+                    "fee()"
+                ],
+                "randomParameterValues": {
+                    "newFee": 7
+                }
+            },
+            {
+                "full_name": "changeEligibleDonkeys(uint256)",
+                "name": "changeEligibleDonkeys",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "number": "uint256"
+                },
+                "internalCalls": [
+                    "onlypig"
+                ],
+                "reads": [],
+                "writes": [
+                    "eligibleForFees()"
+                ],
+                "randomParameterValues": {
+                    "number": 45
+                }
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "multi": "uint256"
+                },
+                "internalCalls": [
+                    "onlypig"
+                ],
+                "reads": [],
+                "writes": [
+                    "multiplier()"
+                ],
+                "randomParameterValues": {
+                    "multi": 1
+                }
+            },
+            {
+                "full_name": "currentMultiplier()",
+                "name": "currentMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "multiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "carrotsCaught()",
+                "name": "carrotsCaught",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "carrots()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "multi": "uint256"
+                },
+                "internalCalls": [
+                    "onlypig"
+                ],
+                "reads": [],
+                "writes": [
+                    "multiplier()"
+                ],
+                "randomParameterValues": {
+                    "multi": 39
+                }
+            },
+            {
+                "full_name": "currentMultiplier()",
+                "name": "currentMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "multiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "donkeysEligibleForFees()",
+                "name": "donkeysEligibleForFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "eligibleForFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeRankingSize(uint256)",
+                "name": "changeRankingSize",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "size": "uint256"
+                },
+                "internalCalls": [
+                    "onlypig"
+                ],
+                "reads": [
+                    "ranking(uint256)"
+                ],
+                "writes": [
+                    "ranking(uint256)"
+                ],
+                "randomParameterValues": {
+                    "size": 33
+                }
+            },
+            {
+                "full_name": "donkeysEligibleForFees()",
+                "name": "donkeysEligibleForFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "eligibleForFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setNickname(string)",
+                "name": "setNickname",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "name": "string"
+                },
+                "internalCalls": [
+                    "addNewDonkey"
+                ],
+                "reads": [
+                    "donkeys(address)"
+                ],
+                "writes": [
+                    "donkeys(address)"
+                ],
+                "randomParameterValues": {
+                    "name": "feee0a900cda06e45ee5032ae72cd52542f749c525"
+                }
+            },
+            {
+                "full_name": "donkeyInvested(address)",
+                "name": "donkeyInvested",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "donkey": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "donkeys(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "donkey": "0x4aA52b7A4b2df3345cf4a9634A59D3ab4085EB95"
+                }
+            },
+            {
+                "full_name": "setNickname(string)",
+                "name": "setNickname",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "name": "string"
+                },
+                "internalCalls": [
+                    "addNewDonkey"
+                ],
+                "reads": [
+                    "donkeys(address)"
+                ],
+                "writes": [
+                    "donkeys(address)"
+                ],
+                "randomParameterValues": {
+                    "name": "216c7022c9af966502209a08823a47fe83fbf1b75ef46488974ea94923496c07"
+                }
+            },
+            {
+                "full_name": "donkeyInvested(address)",
+                "name": "donkeyInvested",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "donkey": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "donkeys(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "donkey": "0xC2e9026d4F3d7e513457d2A5A28a4090aa785F2b"
+                }
+            },
+            {
+                "full_name": "donkeysEligibleForFees()",
+                "name": "donkeysEligibleForFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "eligibleForFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "theDonkeyKing()",
+                "name": "theDonkeyKing",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "donkeyKing()",
+                    "donkeys(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "theDonkeyKing()",
+                "name": "theDonkeyKing",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "donkeyKing()",
+                    "donkeys(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "generousFee()",
+                "name": "generousFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "fee()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

@@ -1,0 +1,375 @@
+{
+    "0x446d1696a5527018453cda3d67aa4c2cd189b9f6": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeBaseMultiplier(uint256)",
+                "name": "changeBaseMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "multi": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "baseMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "multi": 25
+                }
+            },
+            {
+                "full_name": "multipliers()",
+                "name": "multipliers",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "baseMultiplier()",
+                    "maxMultiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "userId(address)",
+                "name": "userId",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "user": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "users(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "user": "0x3576aea49014855415197474164578946C4C6B7d"
+                }
+            },
+            {
+                "full_name": "unclaimedFees()",
+                "name": "unclaimedFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalRescues()",
+                "name": "totalRescues",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "rescues()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalUsers()",
+                "name": "totalUsers",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "uniqueUsers()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "nextPayoutGoal()",
+                "name": "nextPayoutGoal",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "entries(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "awaitingPayout()",
+                "name": "awaitingPayout",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "entries(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalRescues()",
+                "name": "totalRescues",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "rescues()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "entryDetails(uint256)",
+                "name": "entryDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "index": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "entries(uint256)",
+                    "users(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "index": 15
+                }
+            },
+            {
+                "full_name": "pitFee()",
+                "name": "pitFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "jumpFee()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "userName(address)",
+                "name": "userName",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "Address": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "users(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "Address": "0xaBe1dcB01f66Df4dc1af1fdDe64abB23f6079523"
+                }
+            },
+            {
+                "full_name": "awaitingPayout()",
+                "name": "awaitingPayout",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "entries(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setNickname(string)",
+                "name": "setNickname",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "name": "string"
+                },
+                "internalCalls": [
+                    "addNewUser"
+                ],
+                "reads": [
+                    "users(address)"
+                ],
+                "writes": [
+                    "users(address)"
+                ],
+                "randomParameterValues": {
+                    "name": "d9367d82b3cf603a7e10504403"
+                }
+            },
+            {
+                "full_name": "userRescues(address)",
+                "name": "userRescues",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "user": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "users(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "user": "0x1568F4B7e87B2e160EC6f8181E719AB9c7BfEA9e"
+                }
+            },
+            {
+                "full_name": "totalRescues()",
+                "name": "totalRescues",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "rescues()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeMaxMultiplier(uint256)",
+                "name": "changeMaxMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "multi": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "maxMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "multi": 4
+                }
+            },
+            {
+                "full_name": "multipliers()",
+                "name": "multipliers",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "baseMultiplier()",
+                    "maxMultiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "unclaimedFees()",
+                "name": "unclaimedFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "heroOfThePit()",
+                "name": "heroOfThePit",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "hero()",
+                    "rescueRecord()",
+                    "users(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "recycle()",
+                "name": "recycle",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner",
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "balance()",
+                    "entries(uint256)",
+                    "owner()",
+                    "timeOfLastDeposit()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalRescues()",
+                "name": "totalRescues",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "rescues()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeBaseMultiplier(uint256)",
+                "name": "changeBaseMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "multi": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "baseMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "multi": 16
+                }
+            }
+        ]
+    ]
+}

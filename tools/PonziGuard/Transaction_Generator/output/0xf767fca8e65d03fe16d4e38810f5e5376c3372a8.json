@@ -1,0 +1,153 @@
+{
+    "0xf767fca8e65d03fe16d4e38810f5e5376c3372a8": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newOwner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "newOwner": "0xc3912b41C2E89384d10a3F44905Bc239bc682FAf"
+                }
+            },
+            {
+                "full_name": "changeFee(uint256)",
+                "name": "changeFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newFee": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "fee()"
+                ],
+                "writes": [
+                    "fee()"
+                ],
+                "randomParameterValues": {
+                    "newFee": 21
+                }
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newOwner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "newOwner": "0xB4699afDc992eF376e37bf6bADD5D8C694B9B5c0"
+                }
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "multi": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "multiplier()"
+                ],
+                "randomParameterValues": {
+                    "multi": 20
+                }
+            },
+            {
+                "full_name": "multiplierFactor()",
+                "name": "multiplierFactor",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "multiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "currentFee()",
+                "name": "currentFee",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "fee()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "entryDetails(uint256)",
+                "name": "entryDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "index": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "entries(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "index": 16
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

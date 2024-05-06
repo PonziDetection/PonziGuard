@@ -1,0 +1,158 @@
+{
+    "0xee462a6717f17c57c826f1ad9b4d3813495296c9": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewMessage(string)",
+                "name": "NewMessage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_sms": "string"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "Message_To_Investors()"
+                ],
+                "randomParameterValues": {
+                    "new_sms": "076ce8aa9a82"
+                }
+            },
+            {
+                "full_name": "ManualDeposit()",
+                "name": "ManualDeposit",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Emergency()",
+                "name": "Emergency",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "owner()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewOwner(address)",
+                "name": "NewOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_owner": "address"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "Message_To_Investors()",
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "new_owner": "0x86FDb995cFf33B79824a03f4466F0572611A6cE0"
+                }
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "ManualDeposit()",
+                "name": "ManualDeposit",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "writes": [
+                    "Message_To_Investors()",
+                    "balance()",
+                    "totaldeposited()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

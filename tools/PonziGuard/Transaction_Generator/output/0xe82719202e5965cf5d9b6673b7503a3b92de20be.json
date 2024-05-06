@@ -1,0 +1,299 @@
+{
+    "0xe82719202e5965cf5d9b6673b7503a3b92de20be": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 14
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectAllFees()",
+                "name": "collectAllFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 47
+                }
+            },
+            {
+                "full_name": "collectAllFees()",
+                "name": "collectAllFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFeesInEther(uint256)",
+                "name": "collectFeesInEther",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_amt": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner",
+                    "collectAllFees"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_amt": 27
+                }
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "creator()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x4154991Ab32cb231eFcFb8184cC6A5022e882842"
+                }
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "creator()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x65037f9f9973cAe2fA05A3fA713b107Eb0145cb8"
+                }
+            },
+            {
+                "full_name": "collectPercentOfFees(uint256)",
+                "name": "collectPercentOfFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_pcent": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_pcent": 21
+                }
+            },
+            {
+                "full_name": "feesSeperateFromBalanceApproximately()",
+                "name": "feesSeperateFromBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "currentFeePercentage()",
+                "name": "currentFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "feePercent()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "totalParticipants()",
+                "name": "totalParticipants",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "creator()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0xdb77397636120731Ac83a401460F154A0AE27EAE"
+                }
+            },
+            {
+                "full_name": "collectFeesInEther(uint256)",
+                "name": "collectFeesInEther",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_amt": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner",
+                    "collectAllFees"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_amt": 10
+                }
+            },
+            {
+                "full_name": "collectFeesInEther(uint256)",
+                "name": "collectFeesInEther",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_amt": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner",
+                    "collectAllFees"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_amt": 44
+                }
+            }
+        ]
+    ]
+}

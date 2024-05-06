@@ -1,0 +1,24 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getNumInvestors",
+        "outputs": [
+            {
+                "name": "a",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "type": "constructor"
+    },
+    {
+        "payable": false,
+        "type": "fallback"
+    }
+]

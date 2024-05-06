@@ -1,0 +1,56 @@
+{
+    "0xa0f9fb2170dc2d181ef8aaf3571dc441813e0154": [
+        [
+            {
+                "full_name": "TestContract()",
+                "name": "TestContract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "execute"
+                ],
+                "reads": [
+                    "deployer()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "SetAddr(address)",
+                "name": "SetAddr",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_newAddr": "address"
+                },
+                "internalCalls": [
+                    "execute"
+                ],
+                "reads": [],
+                "writes": [
+                    "dividendAddr()"
+                ],
+                "randomParameterValues": {
+                    "_newAddr": "0x7f92fDE7D659D7B690162666f8d6Bc432D704c0b"
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "dividendAddr()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

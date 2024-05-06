@@ -1,0 +1,107 @@
+{
+    "0x1ff3f56609d0771abb49566600febade0e708beb": [
+        [
+            {
+                "full_name": "NewMessage(string)",
+                "name": "NewMessage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_sms": "string"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "Message_To_Investors()"
+                ],
+                "randomParameterValues": {
+                    "new_sms": "79935669932737ca2dbf1f4a35ba6742704cafcf315841"
+                }
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Emergency()",
+                "name": "Emergency",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "owner()"
+                ],
+                "writes": [
+                    "balance()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Emergency()",
+                "name": "Emergency",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "owner()"
+                ],
+                "writes": [
+                    "balance()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewOwner(address)",
+                "name": "NewOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_owner": "address"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "new_owner": "0x4EC0649ba510aa74788088a47869097464C76083"
+                }
+            }
+        ]
+    ]
+}

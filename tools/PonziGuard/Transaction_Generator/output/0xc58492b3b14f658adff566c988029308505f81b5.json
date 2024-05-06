@@ -1,0 +1,29 @@
+{
+    "0xc58492b3b14f658adff566c988029308505f81b5": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "increaseRound",
+                    "checkAmount"
+                ],
+                "reads": [
+                    "lastDepositor()",
+                    "round()",
+                    "startingAmount()"
+                ],
+                "writes": [
+                    "lastDepositor()",
+                    "lastDepositorAmount()",
+                    "nextAmount()"
+                ],
+                "value": 6,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

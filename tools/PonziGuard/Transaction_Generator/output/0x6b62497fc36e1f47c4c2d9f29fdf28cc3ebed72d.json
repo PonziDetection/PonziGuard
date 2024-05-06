@@ -1,0 +1,246 @@
+{
+    "0x6b62497fc36e1f47c4c2d9f29fdf28cc3ebed72d": [
+        [
+            {
+                "full_name": "participantDetails(uint256)",
+                "name": "participantDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "orderInPyramid": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "orderInPyramid": 16
+                }
+            },
+            {
+                "full_name": "currentPyramidBalanceApproximately()",
+                "name": "currentPyramidBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "participantDetails(uint256)",
+                "name": "participantDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "orderInPyramid": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "orderInPyramid": 32
+                }
+            },
+            {
+                "full_name": "nextPayoutWhenPyramidBalanceTotalsApproximately()",
+                "name": "nextPayoutWhenPyramidBalanceTotalsApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "numberOfParticipantsWaitingForPayout()",
+                "name": "numberOfParticipantsWaitingForPayout",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "currentFeePercentage()",
+                "name": "currentFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "feePercent()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeFeePercentage(uint256)",
+                "name": "changeFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_fee": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "feePercent()"
+                ],
+                "randomParameterValues": {
+                    "_fee": 3
+                }
+            },
+            {
+                "full_name": "currentFeePercentage()",
+                "name": "currentFeePercentage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "feePercent()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "creator()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0xb3F130b9AFFc7Ff1987ee5F63D74BE6728734C7c"
+                }
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_mult": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "pyramidMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "_mult": 43
+                }
+            },
+            {
+                "full_name": "currentMultiplier()",
+                "name": "currentMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "pyramidMultiplier()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "feesSeperateFromBalanceApproximately()",
+                "name": "feesSeperateFromBalanceApproximately",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "collectedFees()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFeesInEther(uint256)",
+                "name": "collectFeesInEther",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_amt": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner",
+                    "collectAllFees"
+                ],
+                "reads": [
+                    "collectedFees()",
+                    "creator()"
+                ],
+                "writes": [
+                    "collectedFees()"
+                ],
+                "randomParameterValues": {
+                    "_amt": 49
+                }
+            },
+            {
+                "full_name": "numberOfParticipantsWaitingForPayout()",
+                "name": "numberOfParticipantsWaitingForPayout",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "participants(uint256)",
+                    "payoutOrder()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeMultiplier(uint256)",
+                "name": "changeMultiplier",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_mult": "uint256"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "pyramidMultiplier()"
+                ],
+                "randomParameterValues": {
+                    "_mult": 35
+                }
+            }
+        ]
+    ]
+}

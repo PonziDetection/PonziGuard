@@ -1,0 +1,43 @@
+{
+    "0x8ea6c8077d6316b46e449aec8fb60a606cf50eea": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "CalculateSqrt"
+                ],
+                "reads": [
+                    "calculatedTo()",
+                    "masterCalculator(uint256)"
+                ],
+                "writes": [
+                    "calculatedTo()",
+                    "masterCalculator(uint256)"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "sqrt(uint256)",
+                "name": "sqrt",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "x": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "masterCalculator(uint256)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "x": 45
+                }
+            }
+        ]
+    ]
+}

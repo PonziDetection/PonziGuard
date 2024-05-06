@@ -1,0 +1,192 @@
+{
+    "0x1bb6123913d0b48948de38c3b75fd3eb3b4fe7e3": [
+        [
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "fees()",
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "fees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "fees()",
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "fees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "fees()",
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "fees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "fees()",
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "fees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newOwner": "address"
+                },
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "owners(uint256)"
+                ],
+                "randomParameterValues": {
+                    "newOwner": "0x7F199Eb90533AcDA8085dc8073441f4Fcbe0c6F3"
+                }
+            },
+            {
+                "full_name": "collectFees()",
+                "name": "collectFees",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "fees()",
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "fees()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "changeOwner(address)",
+                "name": "changeOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newOwner": "address"
+                },
+                "internalCalls": [
+                    "onlyowners"
+                ],
+                "reads": [
+                    "owners(uint256)"
+                ],
+                "writes": [
+                    "owners(uint256)"
+                ],
+                "randomParameterValues": {
+                    "newOwner": "0x5380aFD7510eb5a7bD4bd0FdCE1FfD382910D3D0"
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "buyAd"
+                ],
+                "reads": [
+                    "charityFoundationIdx()",
+                    "charityFundations(uint256)"
+                ],
+                "writes": [
+                    "charityFoundationIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "buyAd"
+                ],
+                "reads": [
+                    "charityFoundationIdx()",
+                    "charityFundations(uint256)"
+                ],
+                "writes": [
+                    "charityFoundationIdx()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "buyAd"
+                ],
+                "reads": [
+                    "charityFoundationIdx()",
+                    "charityFundations(uint256)"
+                ],
+                "writes": [
+                    "charityFoundationIdx()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

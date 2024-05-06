@@ -1,0 +1,55 @@
+{
+    "0x723dff0e27cc38b80556f5e05dfdbdcb721654d7": [
+        [
+            {
+                "full_name": "makeDeposit(uint256,address,address,address)",
+                "name": "makeDeposit",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {
+                    "plan": "uint256",
+                    "ref1": "address",
+                    "ref2": "address",
+                    "ref3": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "numDeposits()",
+                    "owner1()",
+                    "owner2()"
+                ],
+                "writes": [
+                    "deposits(uint256)",
+                    "numDeposits()"
+                ],
+                "value": 5,
+                "randomParameterValues": {
+                    "plan": 28,
+                    "ref1": "0xD09e004185386C92EDe02fF0a0cEbad97aFA779e",
+                    "ref2": "0x2ff149eF76Bb4C08Fe095fd5B97112be06B2Bd0A",
+                    "ref3": "0x69084f54fa4cBbbCda3395a435Ea653e0Acc02ed"
+                }
+            },
+            {
+                "full_name": "pay()",
+                "name": "pay",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)"
+                ],
+                "reads": [
+                    "deposits(uint256)",
+                    "i()",
+                    "numDeposits()"
+                ],
+                "writes": [
+                    "deposits(uint256)",
+                    "i()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

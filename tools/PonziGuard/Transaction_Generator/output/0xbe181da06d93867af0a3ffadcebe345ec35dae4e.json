@@ -1,0 +1,60 @@
+{
+    "0xbe181da06d93867af0a3ffadcebe345ec35dae4e": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "enter"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "new_owner": "0xeae12f09e0F7d6fF2b2f46074122A7704038C360"
+                }
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "k()",
+                    "owner()"
+                ],
+                "writes": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "k()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

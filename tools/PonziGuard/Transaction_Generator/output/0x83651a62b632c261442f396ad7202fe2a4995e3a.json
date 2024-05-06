@@ -1,0 +1,51 @@
+{
+    "0x83651a62b632c261442f396ad7202fe2a4995e3a": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Start"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewFeeAddress(address)",
+                "name": "NewFeeAddress",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newFeeAddress": "address"
+                },
+                "internalCalls": [
+                    "execute"
+                ],
+                "reads": [],
+                "writes": [
+                    "feeAddress()"
+                ],
+                "randomParameterValues": {
+                    "newFeeAddress": "0x73c558759Be9884b09dF660C7eeb36E7297a7FDb"
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "Start"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "0x49f053b866c33185fa1151e71fc80d5fe6b08a92": [
+        [
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "participantDetails(uint256)",
+                "name": "participantDetails",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "nr": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "factor()",
+                    "participants(uint256)",
+                    "payoutIdx()"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "nr": 29
+                }
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "init"
+                ],
+                "reads": [],
+                "writes": [],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

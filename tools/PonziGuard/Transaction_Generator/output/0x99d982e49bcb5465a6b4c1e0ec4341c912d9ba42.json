@@ -1,0 +1,114 @@
+{
+    "0x99d982e49bcb5465a6b4c1e0ec4341c912d9ba42": [
+        [
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "Emergency()",
+                "name": "Emergency",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [
+                    "balance()",
+                    "owner()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "NewMessage(string)",
+                "name": "NewMessage",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_sms": "string"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "Message_To_Investors()"
+                ],
+                "randomParameterValues": {
+                    "new_sms": "be6231c9f1cf78bdf13ab462d874c12e46ab8c990a11177e1e3003a1e1fa5a652f23e8"
+                }
+            },
+            {
+                "full_name": "NewOwner(address)",
+                "name": "NewOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_owner": "address"
+                },
+                "internalCalls": [
+                    "manager"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "new_owner": "0x2052535f00D381ed97645fa819E560702BCC5628"
+                }
+            },
+            {
+                "full_name": "Enter()",
+                "name": "Enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "owner()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "writes": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "total_investors()",
+                    "totaldeposited()",
+                    "totaldividends()",
+                    "totalpaidout()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

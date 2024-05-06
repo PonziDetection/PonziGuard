@@ -1,0 +1,69 @@
+{
+    "0xdcb13fa157eebf22ddc8c9aa1d6e394810de6fa3": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "k()",
+                    "owner()"
+                ],
+                "writes": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "k()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "k()",
+                    "owner()"
+                ],
+                "writes": [
+                    "balance()",
+                    "fees()",
+                    "investors(uint256)",
+                    "k()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "new_owner": "0xE0F4B90Abe7Dcc3e2d7A648bcE7db8dC6e737fBf"
+                }
+            }
+        ]
+    ]
+}

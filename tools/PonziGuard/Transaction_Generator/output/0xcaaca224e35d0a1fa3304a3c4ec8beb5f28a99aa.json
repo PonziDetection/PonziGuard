@@ -1,0 +1,74 @@
+{
+    "0xcaaca224e35d0a1fa3304a3c4ec8beb5f28a99aa": [
+        [
+            {
+                "full_name": "kill()",
+                "name": "kill",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "suicide(address)"
+                ],
+                "reads": [
+                    "owner()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0xD9f15141ed9Cf0230a1c37F9eE4C52596Ba159EE"
+                }
+            },
+            {
+                "full_name": "kill()",
+                "name": "kill",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "suicide(address)"
+                ],
+                "reads": [
+                    "owner()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "setOwner(address)",
+                "name": "setOwner",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_owner": "address"
+                },
+                "internalCalls": [
+                    "onlyowner"
+                ],
+                "reads": [],
+                "writes": [
+                    "owner()"
+                ],
+                "randomParameterValues": {
+                    "_owner": "0x336cD3Ef8Dab88e61D91F0CD59732f29C877cb01"
+                }
+            }
+        ]
+    ]
+}

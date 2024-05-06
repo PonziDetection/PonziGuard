@@ -1,0 +1,185 @@
+{
+    "0x245233bc8604d2097bfcbf3338959c46da04d9e0": [
+        [
+            {
+                "full_name": "get_available_interest_amount()",
+                "name": "get_available_interest_amount",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "extend_life_of_contract(uint256)",
+                "name": "extend_life_of_contract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "newblock": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "contract_alive_until_this_block()",
+                    "thebank()"
+                ],
+                "writes": [
+                    "contract_alive_until_this_block()",
+                    "term_deposit_end_block(address)"
+                ],
+                "randomParameterValues": {
+                    "newblock": 50
+                }
+            },
+            {
+                "full_name": "withdraw(uint256)",
+                "name": "withdraw",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "withdraw_amount": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "term_deposit_end_block(address)",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)"
+                ],
+                "randomParameterValues": {
+                    "withdraw_amount": 16
+                }
+            },
+            {
+                "full_name": "get_available_interest_amount()",
+                "name": "get_available_interest_amount",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "close_bank()",
+                "name": "close_bank",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "selfdestruct(address)"
+                ],
+                "reads": [
+                    "contract_alive_until_this_block()",
+                    "count_customer_deposits()",
+                    "thebank()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "set_minimum_payment(uint256)",
+                "name": "set_minimum_payment",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_limit": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "thebank()"
+                ],
+                "writes": [
+                    "minimum_deposit_amount()"
+                ],
+                "randomParameterValues": {
+                    "new_limit": 35
+                }
+            },
+            {
+                "full_name": "get_term_deposit_end_date(address)",
+                "name": "get_term_deposit_end_date",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "query_address": "address"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "term_deposit_end_block(address)"
+                ],
+                "writes": [],
+                "randomParameterValues": {
+                    "query_address": "0x3B4b8CD8917FEcd47c43711F2F5FFcc02453eF15"
+                }
+            },
+            {
+                "full_name": "get_available_interest_amount()",
+                "name": "get_available_interest_amount",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "thebank()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "set_minimum_payment(uint256)",
+                "name": "set_minimum_payment",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "new_limit": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "thebank()"
+                ],
+                "writes": [
+                    "minimum_deposit_amount()"
+                ],
+                "randomParameterValues": {
+                    "new_limit": 11
+                }
+            },
+            {
+                "full_name": "deposit()",
+                "name": "deposit",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balances(address)",
+                    "count_customer_deposits()",
+                    "deposit_fee()",
+                    "minimum_deposit_amount()",
+                    "thebank()"
+                ],
+                "writes": [
+                    "balances(address)",
+                    "count_customer_deposits()",
+                    "deposit_fee()",
+                    "term_deposit_end_block(address)"
+                ],
+                "value": 7,
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

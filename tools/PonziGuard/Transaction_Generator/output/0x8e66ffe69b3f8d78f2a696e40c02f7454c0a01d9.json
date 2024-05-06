@@ -1,0 +1,130 @@
+{
+    "0x8e66ffe69b3f8d78f2a696e40c02f7454c0a01d9": [
+        [
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 2,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 23
+                }
+            },
+            {
+                "full_name": "buyViaJohan()",
+                "name": "buyViaJohan",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "JohanNygren()",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "dividendPathways(address,uint256)",
+                    "totalSupply()"
+                ],
+                "value": 18,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 29,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "buy()",
+                "name": "buy",
+                "visibility": "public",
+                "payable": true,
+                "parameters": {},
+                "internalCalls": [
+                    "isOpen"
+                ],
+                "reads": [
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "value": 32,
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "sell(uint256)",
+                "name": "sell",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {
+                    "_value": "uint256"
+                },
+                "internalCalls": [],
+                "reads": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "writes": [
+                    "balanceOf(address)",
+                    "totalSupply()"
+                ],
+                "randomParameterValues": {
+                    "_value": 42
+                }
+            }
+        ]
+    ]
+}

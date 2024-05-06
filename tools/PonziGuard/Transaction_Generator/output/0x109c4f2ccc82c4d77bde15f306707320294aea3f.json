@@ -1,0 +1,40 @@
+{
+    "0x109c4f2ccc82c4d77bde15f306707320294aea3f": [
+        [
+            {
+                "full_name": "getNumInvestors()",
+                "name": "getNumInvestors",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "numInvestorsMinusOne()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "fallback()",
+                "name": "fallback",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "myTree(uint256)",
+                    "numInvestorsMinusOne()",
+                    "treeBalance()",
+                    "treeDepth()"
+                ],
+                "writes": [
+                    "myTree(uint256)",
+                    "numInvestorsMinusOne()",
+                    "treeBalance()",
+                    "treeDepth()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

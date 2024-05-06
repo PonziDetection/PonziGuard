@@ -1,0 +1,90 @@
+{
+    "0x49c3019b7a83b3c77a823255533975969027308d": [
+        [
+            {
+                "full_name": "found()",
+                "name": "found",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyManager"
+                ],
+                "reads": [
+                    "balanc()"
+                ],
+                "writes": [
+                    "balanc()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "found()",
+                "name": "found",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyManager"
+                ],
+                "reads": [
+                    "balanc()"
+                ],
+                "writes": [
+                    "balanc()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "found()",
+                "name": "found",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyManager"
+                ],
+                "reads": [
+                    "balanc()"
+                ],
+                "writes": [
+                    "balanc()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "testingContract()",
+                "name": "testingContract",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "balance(address)",
+                    "onlyManager"
+                ],
+                "reads": [
+                    "currentManager()"
+                ],
+                "writes": [],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "found()",
+                "name": "found",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [
+                    "onlyManager"
+                ],
+                "reads": [
+                    "balanc()"
+                ],
+                "writes": [
+                    "balanc()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}

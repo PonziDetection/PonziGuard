@@ -1,0 +1,44 @@
+{
+    "0x3325439082ff8ba7371dfdaa1af297bbfcac21b2": [
+        [
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "benefactor(uint256)",
+                    "totalBalance()"
+                ],
+                "writes": [
+                    "balance()",
+                    "benefactor(uint256)",
+                    "totalBalance()"
+                ],
+                "randomParameterValues": {}
+            },
+            {
+                "full_name": "enter()",
+                "name": "enter",
+                "visibility": "public",
+                "payable": false,
+                "parameters": {},
+                "internalCalls": [],
+                "reads": [
+                    "balance()",
+                    "benefactor(uint256)",
+                    "totalBalance()"
+                ],
+                "writes": [
+                    "balance()",
+                    "benefactor(uint256)",
+                    "totalBalance()"
+                ],
+                "randomParameterValues": {}
+            }
+        ]
+    ]
+}
