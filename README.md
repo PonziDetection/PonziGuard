@@ -1,4 +1,4 @@
-# **PonziGuard: Detecting Ponzi Schemes on Ethereum with **Contract Runtime Behavior Graph (CRBG)
+# PonziGuard: Detecting Ponzi Schemes on Ethereum with Contract Runtime Behavior Graph (CRBG)
 
 PonziGuard is an efficient Ponzi scheme detection approach based on contract runtime information and graph neural networks.
 
